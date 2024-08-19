@@ -14,7 +14,7 @@ import {
   Cart,
   Login,
   Register,
- // Checkout,
+  Checkout,
   PageNotFound,
 } from "./pages"
 
@@ -31,7 +31,7 @@ function App() {
           <Route path="/cart" element={<Cart />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
-          {/* <Route path="/checkout" element={<Checkout />}></Route> */}
+          <Route path="/checkout" element={<Checkout />}></Route>
           <Route path="*" element={<PageNotFound />}></Route>
           <Route path="/product/*" element={<PageNotFound />}></Route>
         </Routes>

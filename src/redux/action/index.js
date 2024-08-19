@@ -6,7 +6,7 @@ export const addCart = (product) => {
   }
 }
 // Delete the Item
-export const delcart = (product) => {
+export const delCart = (product) => {
   return {
     type: "DELETEITEM",
     payload: product,
