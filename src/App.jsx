@@ -1,10 +1,18 @@
 import React from "react"
+import ReactDOM from "react-dom/client"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.min"
+
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { Home } from "./pages"
 
 function App() {
   return (
-    <>
-      <h1>Ecommerce website</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
