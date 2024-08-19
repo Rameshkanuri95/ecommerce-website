@@ -11,7 +11,7 @@ import {
   Products,
   AboutPage,
   ContactPage,
- // Cart,
+  Cart,
   Login,
   Register,
  // Checkout,
@@ -28,7 +28,7 @@ function App() {
           <Route path="/product/:id" element={<Product />}></Route>
           <Route path="/about" element={<AboutPage />}></Route>
           <Route path="/contact" element={<ContactPage />}></Route>
-          {/* <Route path="/cart" element={<Cart />}></Route> */}
+          <Route path="/cart" element={<Cart />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
           {/* <Route path="/checkout" element={<Checkout />}></Route> */}
