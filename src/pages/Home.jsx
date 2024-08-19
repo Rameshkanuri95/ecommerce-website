@@ -1,10 +1,10 @@
-import { Navbar, Main, Products, Footer } from "../components"
+import { Navbar, Main, Producth, Footer } from "../components"
 const Home = () => {
   return (
     <>
       <Navbar />
       <Main />
-      <Products />
+      <Producth />
       <Footer />
     </>
   )
